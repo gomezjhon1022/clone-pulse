@@ -1,0 +1,43 @@
+.header {
+  background-color: var(--green-ligth);
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1rem;
+}
+
+nav > a {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 2.5rem;
+}
+
+.header__right {
+  display:flex;
+  align-items: center;
+}
+
+.header__right li {
+  margin-right: 2.5rem;
+}
+
+.header__right a {
+  color: var(--green-dark);
+  font-weight: 700;
+}
+
+.header__right .header--sign_up {
+  margin-right: 0;
+}
+
+.header--sign_up > a {
+  padding: 0.45rem 1rem;
+  line-height: 1.5;
+  border:solid 2px;
+}

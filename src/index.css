@@ -1,4 +1,39 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Work Sans,Helvetica Neue,Helvetica,Arial,sans-serif;;
 
+  --white: #fcfcfc;
+  --gray: #d6dae5;
+  --black: #080c16;
+  --green-ligth:#eafaf1;
+  --green:#1fe374;
+  --green-dark: #00ad6a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+a {
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+*, :after, :before {
+  border: 0 solid #d6dae5;
+}
+
+.hidden {
+  display: none;
+}
+ul {
+  list-style: none;
 }
