@@ -37,3 +37,10 @@ a {
 ul {
   list-style: none;
 }
+
+
+@media (width <800px) {
+  .container {
+    padding: 20px 30px;
+  }
+}
