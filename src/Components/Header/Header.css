@@ -53,6 +53,34 @@ nav > a {
   position: relative;
   display: inline-block;
   font-weight: 700;
+  border-width: 2px;
+}
+
+.sign-up {
+  color: var(--green-dark);
+  background-color: transparent;
+}
+.sign-up:before {
+  display: none;
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  top:-2px;
+  right: -2px;
+  bottom: -2px;
+  left:-2px;
+  transform: translate3d(-5px, 5px,0);
+  transform-style: preserve-3d;
+}
+.sign-up:hover:before {
+  display: block;
+}
+
+.sign-up:hover {
+  transform: translate3d(5px, -5px, 0);
+  color:var(--green-dark);
+  box-shadow: -5px 5px var(--green-dark);
+  border: 2px solid var(--green-dark);
 }
 
 @media (width <800px) {

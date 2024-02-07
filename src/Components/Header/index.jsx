@@ -43,7 +43,7 @@ function Header () {
               </a>
             </li>
             <li className='header--sign_up'>
-              <a>
+              <a className='sign-up sign-up-outline'>
                 Sign Up
               </a>
             </li>
