@@ -43,12 +43,37 @@ function Header () {
               </a>
             </li>
             <li className='header--sign_up'>
-              <a className='sign-up sign-up-outline'>
+              <a className='sign-up'>
                 Sign Up
               </a>
             </li>
           </ul>
         </nav>
+      </div>
+      <div className='mobile-nav'>
+        <ul className='mobile-nav--main'>
+          <li>
+            <a>Features</a>
+          </li>
+          <li>
+            <a>Customer Stories</a>
+          </li>
+          <li>
+            <a>Pricing</a>
+          </li>
+          <li>
+            <a>Blog</a>
+          </li>
+          <li>
+            <a>Contact</a>
+          </li>
+          <li>
+            <a>Support</a>
+          </li>
+          <li>
+            <a className='mobile-nav--button'>Sign Up for a Free 30-Day Trial</a>
+          </li>
+        </ul>
       </div>
     </header>
   )

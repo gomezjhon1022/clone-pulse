@@ -83,6 +83,37 @@ nav > a {
   border: 2px solid var(--green-dark);
 }
 
+.mobile-nav {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top:82px;
+  opacity: 1;
+  padding: 1.5rem;
+  background-color: var(--green-ligth);
+  width: 100%;
+  z-index: 10;
+  /* transition: .3s ease-in-out .3s; */
+}
+
+.mobile-nav--main li a{
+  display: block;
+  color:var(--green-dark);
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.mobile-nav--main .mobile-nav--button {
+  position: relative;
+  display: inline-block;
+  padding: 1rem;
+  border-width: 0;
+  background-image: linear-gradient(90deg,#00ab6a,#23ea76);
+  color:black;
+  text-align: center;
+}
+
 @media (width <800px) {
   .header__right {
     display: none
