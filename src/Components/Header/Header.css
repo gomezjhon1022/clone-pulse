@@ -88,12 +88,13 @@ nav > a {
   left: 0;
   bottom: 0;
   top:82px;
-  opacity: 1;
+  opacity: 0.1;
   padding: 1.5rem;
   background-color: var(--green-ligth);
   width: 100%;
   z-index: 10;
-  /* transition: .3s ease-in-out .3s; */
+  transition: .3s ease-in-out .3s;
+  display: none;
 }
 
 .mobile-nav--main li a{
@@ -126,5 +127,11 @@ nav > a {
   }
   .header {
     background-color: var(--white);
+  }
+  .mobile-nav {
+    display: block;
+  }
+  .menu-visible {
+    opacity: 1;
   }
 }

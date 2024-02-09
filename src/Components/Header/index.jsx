@@ -4,7 +4,7 @@ import './Header.css'
 
 function Header () {
   const [isMenuMobileOpen, setIsMenuMobileOpen] = useState(false)
-  
+
   function handleMenuMobile () {
     setIsMenuMobileOpen(!isMenuMobileOpen);
     console.log("cambio")
@@ -50,7 +50,7 @@ function Header () {
           </ul>
         </nav>
       </div>
-      <div className='mobile-nav'>
+      <div className={`mobile-nav ${isMenuMobileOpen?'menu-visible':''}`}>
         <ul className='mobile-nav--main'>
           <li>
             <a>Features</a>
