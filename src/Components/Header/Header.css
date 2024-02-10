@@ -115,6 +115,42 @@ nav > a {
   text-align: center;
 }
 
+.mobile-nav--main li {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: .15s ease-in-out;
+  will-change: opacity, transform;
+}
+
+.menu-visible .mobile-nav--main li {
+  opacity: 1;
+  transform: translateY(0);
+  transition: .55s cubic-bezier(0.645, 0.45, 0.355, 1);
+}
+
+.menu-visible .mobile-nav--main li:first-of-type {
+  transition-delay: .3s;
+}
+.menu-visible .mobile-nav--main li:nth-of-type(2) {
+  transition-delay: .4s;
+}
+.menu-visible .mobile-nav--main li:nth-of-type(3) {
+  transition-delay: .5s;
+}
+.menu-visible .mobile-nav--main li:nth-of-type(4) {
+  transition-delay: .6s;
+}
+.menu-visible .mobile-nav--main li:nth-of-type(5) {
+  transition-delay: .7s;
+}
+.menu-visible .mobile-nav--main li:nth-of-type(6) {
+  transition-delay: .8s;
+}
+.menu-visible .mobile-nav--main li:nth-of-type(7) {
+  transition-delay: .9s;
+}
+
+
 @media (width <800px) {
   .header__right {
     display: none
