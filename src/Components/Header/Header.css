@@ -2,6 +2,10 @@
   background-color: var(--green-ligth);
   width: 100%;
 }
+.header div:first-child {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 
 nav {
   display: flex;

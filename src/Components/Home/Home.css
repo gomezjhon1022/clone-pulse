@@ -1,0 +1,51 @@
+.content {
+  background-color: var(--green-ligth);
+}
+.content div:first-child{
+  padding-bottom: 1rem;
+}
+  
+.content-try {
+  max-width: 600px;
+}
+
+.content-try h1 {
+  letter-spacing: -2px;
+  font-size: 3.75rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: var(--black);
+}
+.content-try p {
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.pricing-books {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.pricing-books-list {
+  margin-bottom: 2rem;
+}
+
+.pricing-books-list h2 {
+  color:var(--green-dark);
+  margin-bottom: 1rem;
+}
+.pricing-books-list ul {
+  font-size: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  list-style-type: disc;
+  line-height: 1.5;
+}
+.pricing-books-list ul li {
+  display: list-item;
+  color:var(--black-light);
+}
+.pricing-books-list p a {
+  text-decoration: underline;
+}
