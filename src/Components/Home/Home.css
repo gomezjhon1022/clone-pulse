@@ -1,7 +1,7 @@
 .content {
   background-color: var(--green-ligth);
 }
-.content div:first-child{
+.content .container-try{
   padding-bottom: 1rem;
 }
   
@@ -35,7 +35,7 @@
   color:var(--green-dark);
   margin-bottom: 1rem;
 }
-.pricing-books-list ul {
+.pricing-books-list .benefits {
   font-size: 1rem;
   margin-left: 2rem;
   margin-bottom: 1rem;
@@ -48,4 +48,110 @@
 }
 .pricing-books-list p a {
   text-decoration: underline;
+}
+
+.recommended a {
+  display: flex;
+  flex-direction: column;
+  color: var(--black-light) ;
+  text-decoration: none;
+  border-color: var(--green-dark);
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-width: 1px;
+  background-color: var(--white);
+  font-weight: 700;
+}
+.block-banner {
+  letter-spacing: 1px;
+  font-size: .75rem;
+  color:var(--white);
+  background-color: var(--green-dark);
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.recommended-main {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+
+}
+
+.recommended .recommended-main .title {
+  display: inline-block;
+  letter-spacing: -1.5px;
+  font-size: 2.25rem;
+  color: var(--green-dark);
+  line-height: 1;
+  font-weight: 700;
+  padding-bottom: 0;
+}
+
+.recommended-main .price {
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
+  display: inline-block;
+  letter-spacing: -.5px;
+  color:var(--gray-dark);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 1;
+  font-weight: 400;
+}
+.recommended-main .extra {
+  margin-top: 2rem;
+  letter-spacing: 1;
+  font-size: .75rem;
+  line-height: 1.15;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.recommended-list {
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  letter-spacing: -.5px;
+  text-align: left;
+  list-style: none;
+}
+
+.recommended-list li {
+  font-weight: 400;
+  color: var(--black-light);
+  position:relative;
+  line-height: 1.15;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.recommended-list li:before {
+  content: "";
+  position: absolute;
+  left:-14px;
+  top:14px;
+  width: 12px;
+  height: 12px;
+  background-image: url("https://pulseapp.com/img/icons/icon-check-bullet.svg");
+  background-repeat: no-repeat;
+}
+
+.recommended-sign-up {
+  padding: 1rem;
+}
+.recommended-sign-up > div {
+  width: 100%;
+  font-size: 1.25rem;
+  text-align: center;
+  padding-bottom: 0.75rem;
+  padding-top: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: var(--green);
+  font-weight: 700;
 }
