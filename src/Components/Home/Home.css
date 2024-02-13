@@ -155,3 +155,102 @@
   background-color: var(--green);
   font-weight: 700;
 }
+
+.pricing-books-features > a {
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  border-width: 1px;
+  background-color: var(--white);
+  cursor:pointer;
+}
+
+.container-features {
+  position: relative;
+}
+.container-features > div:first-child {
+  background-color: #f2f3f3;
+  font-size: .875rem;
+  text-align: center;
+  padding: 1rem;
+  line-height: 1.3;
+  font-weight: normal;
+}
+.container-features > div:nth-child(2) {
+  padding: 1rem;
+}
+.features-info > div:first-child {
+  display: inline-block;
+  letter-spacing: -1.5px;
+  font-size: 2.25rem;
+  color:var(--green-dark);
+  line-height: 1;
+}
+.features-info > div:nth-child(2) {
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
+  display: inline-block;
+  letter-spacing: -.5px;
+  color: #83858a;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 1;
+  font-weight: 400;
+}
+.features-info > div:nth-child(3) {
+  margin-top: 2rem;
+  letter-spacing: 1px;
+  font-size: .75rem;
+  line-height: 1.15;
+  font-weight: 700;
+  color: var(--black-light);
+  text-transform: uppercase;
+}
+
+.container-features > ul:nth-child(3) {
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  letter-spacing: -.5px;
+  text-align: left;
+  color: var(--black-light);
+}
+
+.features-list {
+  position: relative;
+  line-height: 1.15;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  letter-spacing: -.5px;
+  font-weight: 400;
+}
+
+.features-list:before {
+  content: "";
+  position: absolute;
+  left: -14px;
+  top:14px;
+  width: 12px;
+  height: 12px;
+  background-image: url("https://pulseapp.com/img/icons/icon-check-bullet.svg");
+  background-repeat: no-repeat;
+}
+
+.container-features > div:nth-child(4) {
+  padding: 1rem;
+}
+
+.button-premium {
+  font-size: 1.25rem;
+  text-align: center;
+  padding-bottom: 0.75rem;
+  padding-top: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-weight: 700;
+  background-color: var(--green);
+  color:var(--black-light)
+}
