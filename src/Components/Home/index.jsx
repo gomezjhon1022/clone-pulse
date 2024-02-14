@@ -97,8 +97,16 @@ export function Home () {
             </div>
           </div>
         </div>
-        <div className="container">
-          try pulse3
+        <div className="final-phrase">
+          <div>
+            <img  src='https://pulseapp.com/img/subvert-avatar.png'/>
+            <div>
+            “Pulse is worth every penny because it empowers business owners with critical financial insight and knowledge.”
+            </div>
+            <div>
+            Subvert Marketing, Inc.
+            </div>
+          </div>
         </div>
       </section>
 
