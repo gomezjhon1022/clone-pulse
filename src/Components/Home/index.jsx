@@ -109,6 +109,37 @@ export function Home () {
           </div>
         </div>
       </section>
+      <section className='faq'>
+        <h2 className='faq-title'>FAQ</h2>
+        <div>
+          <div className='faq-card'>
+            <div>How does the 30-day free trial work?</div>
+            <p>You can use Pulse absolutely free for 30 days. After 30 days, we will charge the credit card you used when you sign up. If you choose to cancel your account before your trial ends, your card will not be charged.</p>
+          </div>
+          <div className='faq-card'>
+            <div>If I upgrade an existing account, do I get another free trial?</div>
+            <p>Brand new accounts are the only ones eligible for a 30-day free trial. If you upgrade an existing account, your credit card will be billed the new amount on the date of your next billing cycle.</p>
+          </div>
+          <div className='faq-card'>
+            <div>What is a “Financial Account”?</div>
+            <p>Financial Accounts are a grouping of income and expense items that can be used for tracking or reporting purposes.<br/><br/>
+            They’re designed to be flexible and can be used to differentiate between bank accounts, companies, individuals or between personal and business entries.
+            </p>
+          </div>
+          <div className='faq-card'>
+            <div>Do I have to commit to a long-term contract?</div>
+            <p>No. There is no contract when you use Pulse, other than agreeing to our Terms of Service.</p>
+          </div>
+          <div className='faq-card'>
+            <div>Will I be able to cancel my account if I don’t use Pulse?</div>
+            <p>Yes – you can cancel your account at any time. To cancel your account, go to your billing page and click on “Please cancel my account” at the bottom of the page. The account owner is the only one who can cancel an account. An email request to delete an account is not considered cancellation.</p>
+          </div>
+          <div className='faq-card'>
+            <div>What types of payments do you accept?</div>
+            <p>We accept payments made online using Visa, Mastercard, Discover, and American Express.</p>
+          </div>
+        </div>
+      </section>
 
     </main>
   )

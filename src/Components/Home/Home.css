@@ -287,3 +287,49 @@
   color: var(--green-dark);
   font-weight: 700;
 }
+
+.faq {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 2rem;
+}
+
+.faq-title {
+  margin-bottom: 1rem;
+  font-size: 2.25rem;
+  line-height: 1.15;
+  color: var(--black);
+  font-weight: 700;
+}
+
+.faq > div {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.faq-card {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.faq-card > div:first-child {
+  font-size: 1.25rem;
+  line-height: 1.15;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.faq-card > p {
+  font-size: 1.125rem;
+}
+
+@media (min-width:768px) {
+  .faq-card {
+    width: 50%;
+  }
+}
