@@ -1,0 +1,112 @@
+.footer {
+  background-color: var(--black);
+}
+
+.footer > div:first-child {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.footer-container-info {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.footer-container-info > div {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.footer-info-sign-in {
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 3rem;
+}
+
+.footer-info-sign-in > p:first-child {
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+}
+
+.footer-image {
+  display: inline-block;
+}
+.footer-image > img {
+  width: 8rem;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.button-footer {
+  position:relative;
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+  border-width: 0;
+  background-image: linear-gradient(90deg,#00ab6a,#23ea76);
+  padding: 1rem 2rem;
+  color:#062c27;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-footer:hover {
+  transform: translate3d(5px, -5px,0);
+  box-shadow:-5px 5px var(--gray-dark) ;
+}
+
+.footer-info-links {
+  font-size: 1.125rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-info-links ul {
+  padding: 0 1rem;
+  list-style: none;
+}
+.footer-info-links > ul > li:first-child {
+  color: var(--white);
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+.footer-info-links > ul > li:not(:first-child) {
+  margin-bottom: 0.5rem;
+}
+.footer-info-links > ul > li:not(:first-child) > a {
+  color: var(--green);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.footer-container-links {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem;
+  font-size: .75rem;
+  color: var(--gray-dark);
+}
+
+.footer-container-links a {
+  color: var(--gray-dark);
+}
+
+@media (min-width:768px) {
+  .footer-container-info {
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+  }
+  .footer-info-sign-in > p:nth-child(2) > a {
+    display: inline-block;
+  }
+}
+
+@media (min-width:425px) {
+  .footer-info-links ul {
+  width: 33.3333%;
+  }
+}

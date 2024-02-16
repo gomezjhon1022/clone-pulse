@@ -1,4 +1,5 @@
 import { Header } from '../Header/index'
+import { Footer } from '../Footer'
 
 function Layout ({children}) {
  
@@ -6,6 +7,7 @@ function Layout ({children}) {
     <>
       <Header />
       {children}
+      <Footer />
     </>
   )
 }
