@@ -93,6 +93,7 @@
 
 .footer-container-links a {
   color: var(--gray-dark);
+  line-height: 1.5;
 }
 
 @media (min-width:768px) {
@@ -108,5 +109,29 @@
 @media (min-width:425px) {
   .footer-info-links ul {
   width: 33.3333%;
+  }
+}
+
+@media (min-width:1024px) {
+  .footer-container-info > div {
+    display: flex;
+  }
+  .footer-info-sign-in {
+    width: 50%;
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  .footer-image img {
+    width: 10rem;
+  }
+  .footer-info-sign-in > p:first-child {
+    margin-bottom: 3rem;
+  }
+  .footer-info-links {
+    width: 50%;
+  }
+  .footer-container-info .footer-info-links > ul > li {
+    margin-bottom: 1rem;
   }
 }

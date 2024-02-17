@@ -23,7 +23,7 @@ export function Footer() {
                 <li>Product</li>
                 <li>
                   <a href='/'>
-                  Feature
+                  Features
                   </a>
                 </li>
                 <li>
@@ -74,8 +74,7 @@ export function Footer() {
       </div>
       <div>
         <div className='footer-container-links'>
-        ©2019 Pulseapp.com, Inc. All Rights Reserved |
-        <a href='/'> Terms of use </a> | <a href='/'> Privacy Policy </a> | <a href='/'> EU Privacy </a><br/>Pulse is made by <a href='/'>Simple Focus</a>. We also make <a href='/'>Ballpark</a>, <a href='/'>Sifter</a>, and <a href='/'>Curated</a>.
+        ©2019 Pulseapp.com, Inc. All Rights Reserved | <a href='/'>Terms of Use</a> | <a href='/'>Privacy Policy</a> | <a href='/'> EU Privacy </a><br/>Pulse is made by <a href='/'>Simple Focus</a>. We also make <a href='/'>Ballpark</a>, <a href='/'>Sifter</a>, and <a href='/'>Curated</a>.
         </div>
 
       </div>

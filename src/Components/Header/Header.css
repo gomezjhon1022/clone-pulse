@@ -41,6 +41,10 @@ nav > a {
   margin-right: 2.5rem;
 }
 
+.header__right li:not(:last-child) a:hover {
+  color: black;
+}
+
 .header__right a {
   color: var(--green-dark);
   font-weight: 700;
