@@ -86,7 +86,7 @@
 .footer-container-links {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0.75rem 1.5rem;
+  padding: 0.75rem 1.5rem 6rem 1.5rem;
   font-size: .75rem;
   color: var(--gray-dark);
 }
@@ -103,6 +103,9 @@
   }
   .footer-info-sign-in > p:nth-child(2) > a {
     display: inline-block;
+  }
+  .footer-container-links {
+    padding: 0.75rem 1.5rem;
   }
 }
 

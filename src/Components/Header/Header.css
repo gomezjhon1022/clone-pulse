@@ -159,7 +159,7 @@ nav > a {
 }
 
 
-@media (width <800px) {
+@media (width < 800px) {
   .header__right {
     display: none
   }
@@ -167,7 +167,7 @@ nav > a {
     display: block;
   }
   .menu-image {
-    fill: var(--green);
+    fill: var(--green-dark);
   }
   .header {
     background-color: var(--white);
@@ -178,4 +178,10 @@ nav > a {
   .menu-visible {
     opacity: 1;
   }
+  .header div:first-child {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
 }
+
+
