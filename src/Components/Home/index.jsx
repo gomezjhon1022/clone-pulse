@@ -63,37 +63,39 @@ export function Home () {
                       Sign Up Now
                       </div>
                     </div>
+                    <div className='extra-desktop'> You get Pulse Basics, plus: </div>
                   </div>
                 </a>
               </div>
-            </div>
-            <div className='pricing-books-features'>
-              <a href='/'>
-                <div className='container-features'>
-                  <div>Complex business with multiple financial accounts, currencies, or auditing needs?</div>
-                  <div className='features-info'>
-                    <div>Unlock Extra Features</div>
-                    <div>$89 per month</div>
-                    <div>Get it all, plus:</div>
+              <div className='pricing-books-features'>
+                <a href='/'>
+                  <div className='container-features'>
+                    <div>Complex business with multiple financial accounts, currencies, or auditing needs?</div>
+                    <div className='features-info'>
+                      <div>Unlock Extra Features</div>
+                      <div>$89 per month</div>
+                      <div>Get it all, plus:</div>
+                    </div>
+                    <ul>
+                      <li className='features-list'>
+                        <span>Manage cash flow across unlimited financial accounts</span>
+                      </li>
+                      <li className='features-list'>
+                        <span>Convert to any currency for localized cash flow reporting and projections</span>
+                      </li>
+                      <li className='features-list'>
+                        <span>
+                        Attach invoices or contracts to your cash flow entries for accountability and auditing
+                        </span>
+                      </li>
+                    </ul>
+                    <div>
+                      <div className='button-premium'>Try Premium</div>
+                    </div>
+                    <div className='extra-desktop-features'>Get it all, plus:</div>
                   </div>
-                  <ul>
-                    <li className='features-list'>
-                      <span>Manage cash flow across unlimited financial accounts</span>
-                    </li>
-                    <li className='features-list'>
-                      <span>Convert to any currency for localized cash flow reporting and projections</span>
-                    </li>
-                    <li className='features-list'>
-                      <span>
-                      Attach invoices or contracts to your cash flow entries for accountability and auditing
-                      </span>
-                    </li>
-                  </ul>
-                  <div>
-                    <div className='button-premium'>Try Premium</div>
-                  </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
           </div>
         </div>

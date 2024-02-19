@@ -112,6 +112,18 @@
   font-weight: 700;
   color: var(--black);
 }
+.extra-desktop {
+  display: none;
+  letter-spacing: 1;
+  font-size: .75rem;
+  line-height: 1.15;
+  font-weight: 700;
+  color: var(--black);
+  text-align: center;
+}
+.extra-desktop-features {
+  display: none;
+}
 
 .recommended-list {
   padding-bottom: 1rem;
@@ -361,5 +373,85 @@
   }
   .faq-title {
     font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content .container-try {
+    padding-bottom: 2.5rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  .content .container-try .content-try{
+    text-align: center;
+  }
+  
+  .pricing-books-list {
+    display: flex;
+  }
+  .pricing-books-list > .container, .recommended, .pricing-books-features {
+    width: 33.333%;
+  }
+  .recommended > a > div {
+    display: flex;
+    flex-direction: column;
+  }
+  .recommended-main {
+    text-align: center;
+    order:1;
+    padding: 1rem 1rem 0 1rem;
+  }
+  .recommended-sign-up {
+    order: 2;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+  }
+  .recommended-list {
+    order: 4;
+  }
+  .extra {
+    display: none;
+  }
+  .extra-desktop {
+    display: block;
+    order:3;
+  }
+  .recommended-main .price {
+    margin-bottom: 1.5rem;
+  }
+  .container-features {
+    display: flex;
+    flex-direction: column;
+  }
+  .features-info {
+    text-align: center;
+  }
+  .container-features > div:nth-child(4) {
+    order:3;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+  }
+  .container-features > div:nth-child(1) {
+    order: 1;
+  }
+  .container-features > div:nth-child(2) {
+    order: 2;
+  }
+  .container-features > ul:nth-child(3) {
+  order: 5;
+  }
+  .features-info>div:nth-child(3) {
+    display: none;
+  }
+  .extra-desktop-features {
+    display: block;
+    text-align: center;
+    order: 4;
+    letter-spacing: 1;
+    font-size: .75rem;
+    line-height: 1.15;
+    font-weight: 700;
+    color: var(--black);
   }
 }
